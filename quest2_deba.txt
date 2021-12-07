@@ -1,0 +1,12 @@
+###2. Choix d’un SGBD
+#1.  Qu’est-ce qu’un SGBD?
+Le SGBD permet aux utilisateurs de créer leurs propres bases de données en fonction de leurs besoins. Comme son nom l'indique, le système de gestion de base de données se compose de deux parties. Il s'agit de :La base de données et Le système de gestion. Plus précisément, il s'agit de l'utilisateur de la base de données et des autres programmes d'application. Il fournit une interface entre les données et l'application logicielle.
+Par conséquent, le système de gestion de base de données (SGBD) est un logiciel permettant de stocker et de récupérer les données des utilisateurs tout en tenant compte des mesures de sécurité appropriées. Il consiste en un groupe de programmes qui manipulent la base de données. Le SGBD accepte la demande de données d'une application et demande au système d'exploitation de fournir les données spécifiques. Dans les grands systèmes, un SGBD aide les utilisateurs et d'autres logiciels tiers à stocker et à récupérer des données.
+#2. Donner 3 exemples de SGBD relationnel et non relationnel
+Les exemples les plus connus de systèmes de gestion de bases de données relationnelles sont Microsoft SQL Server, MySQL et IBM DB2. Trois des bases de données NoSQL les plus populaires sont MongoDB, Apache Cassandra et Redis.
+
+#3.	Quelle est la différence entre un SGBD relationnel et non relationnel
+La principale différence entre les systèmes de bases de données relationnelles et non relationnelles est que les bases de données relationnelles sont normalisées. C'est-à-dire qu'elles conservent les données sous forme de tableaux, disposés dans une table avec des lignes et des colonnes. Une base de données non relationnelle stocke les données sous forme de fichiers. Les autres différences sont les suivantes : Utilisation de clés primaires, relations données-valeurs, contraintes d'intégrité, données structurées vs non structurées.
+
+#4. Dans quel cas choisir un SGBD relationnel ou non relationnel
+Les bases de données relationnelles fonctionnent pour des données structurées avec des relations définies qui peuvent être organisées dans un format tabulaire. Cependant, la sélection de la bonne architecture de base de données ne se limite pas à choisir entre relationnel et non relationnel. Le type de données et l'application utilisée ou développée sont des facteurs clés à prendre en compte.

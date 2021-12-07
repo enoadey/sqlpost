@@ -1,0 +1,24 @@
+1. Les bases de données NoSQL peuvent être classées en quatre catégories de base, 
+chacune résolvant un type différent de problèmes de big data : Clé-valeur, famille de colonnes, 
+document, graphique.
+
+Les bases de données NoSQL de type clé-valeur utilisent une clé pour localiser une valeur (par exemple, des données traditionnelles, des BLOBs - Binary Large OBJECTS, 
+des fichiers) dans des tables simples et autonomes, appelées tables de hachage.Dans ce cas, les recherches sont effectuées sur les clés, et non sur les valeurs, et 
+elles sont limitées aux correspondances exactes. Parmi les magasins clé-valeur les plus connus, citons Amazon DynamoDB, Berkeley DB, Redis et Riak.
+
+
+Les bases de données NoSQL à base de colonnes ou orientées colonnes ont été nommées pour 
+leur conception avec des données stockées en colonnes. En revanche, une base de données orientée ligne 
+(base de données relationnelle) conserve ensemble les informations relatives à une ligne. 
+Parmi les magasins à base de colonnes les plus connus, citons Google BigTable, Apache Cassandra, HBase, Hypertable et Amazon SimpleDB.
+
+Les stockages NoSQL de documents ont été conçus pour stocker et gérer des documents. 
+Les documents sont encodés dans des formats d'échange de données standard, notamment XML, 
+JSON (JavaScript Object Notation) et BSON (Binary JSON). Parmi les stockages de documents 
+les plus connus, citons MongoDB, CouchDB, Terrastore et RavenDB.
+
+Les bases de données NoSQL graphiques excellent dans le traitement de données hautement 
+interconnectées. Elles se concentrent sur les relations, plutôt que sur les données. 
+Un magasin de graphes se compose de nœuds et de relations entre les nœuds. Les nœuds et 
+les relations ont des propriétés (ou des paires clé-valeur) pour stocker les données. 
+Parmi les graph stores les plus connus, citons Neo4J, Infinite Graph et FlockDB.
